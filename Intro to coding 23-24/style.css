@@ -1,0 +1,33 @@
+p{
+     background-color: #ABE32B; 
+     border: 15px dashed #648712; 
+     color: burlywood; 
+     font-size: large;
+}
+strong{
+    background-color: lawngreen;
+    color: khaki;
+    /* font-family: ; */
+}
+body{
+    background-color: olive;
+}
+h1{
+    color:  yellow;
+    background-color: yellowgreen;
+}
+
+i{
+    color:aquamarine
+}
+u{
+    color:violet;
+}
+h2 {
+    color:darkkhaki;
+    background-color: darksalmon;
+}
+h3 {
+    color: ivory;
+    background-color: wheat;
+}

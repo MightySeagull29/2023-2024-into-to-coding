@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usingJS</title>
+</head>
+<body>
+     <h1>Ultimate Questionnare</h1>
+     <p>Am I the best helper you've had?</p>
+
+     <button id="yesButton">Yes</button>
+     <button id="noButton">No</button>
+
+     <div id="answers">
+        <p id="answerYes">Wrong! I am worse at coding.</p>
+        <p id="answerNo"> That's Offensive</p>
+     </div>
+
+     <script src="lib/jquery.js"></script>
+
+     <script>
+        $("#yesButton").click(function() {
+            $("#answerYes").show();
+            $("#answerNo").hide();
+        })
+
+        $("#noButton").click(function() {
+            $("#answerYes").hide();
+            $("#answerNo").show();
+        })
+     </script>
+</body>
+</html>
